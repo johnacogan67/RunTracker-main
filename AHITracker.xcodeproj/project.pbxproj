@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97054D412755856900BFACDB /* AHITrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97054D402755856900BFACDB /* AHITrackerApp.swift */; };
+		97054D432755856900BFACDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97054D422755856900BFACDB /* ContentView.swift */; };
+		97054D452755856D00BFACDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97054D442755856D00BFACDB /* Assets.xcassets */; };
+		97054D482755856D00BFACDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97054D472755856D00BFACDB /* Preview Assets.xcassets */; };
+		97054D522755856D00BFACDB /* AHITrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97054D512755856D00BFACDB /* AHITrackerTests.swift */; };
+		97054D5C2755856E00BFACDB /* AHITrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97054D5B2755856E00BFACDB /* AHITrackerUITests.swift */; };
+		97054D5E2755856E00BFACDB /* AHITrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97054D5D2755856E00BFACDB /* AHITrackerUITestsLaunchTests.swift */; };
+		97751116275D70C2007216D1 /* SensorsConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97751115275D70C2007216D1 /* SensorsConnectionView.swift */; };
+		97751118275D77E2007216D1 /* SensorsDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97751117275D77E2007216D1 /* SensorsDataView.swift */; };
+		9775111A275E0A1C007216D1 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97751119275E0A1C007216D1 /* BLEController.swift */; };
+		9775111C275E1325007216D1 /* RTSensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775111B275E1325007216D1 /* RTSensors.swift */; };
+		9775112B276200BB007216D1 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9775112A276200BB007216D1 /* CustomViews.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97054D4E2755856D00BFACDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97054D352755856900BFACDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97054D3C2755856900BFACDB;
+			remoteInfo = RunTracker;
+		};
+		97054D582755856E00BFACDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97054D352755856900BFACDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97054D3C2755856900BFACDB;
+			remoteInfo = RunTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97054D3D2755856900BFACDB /* AHITracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHITracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97054D402755856900BFACDB /* AHITrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHITrackerApp.swift; sourceTree = "<group>"; };
+		97054D422755856900BFACDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97054D442755856D00BFACDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97054D472755856D00BFACDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97054D4D2755856D00BFACDB /* AHITrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHITrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97054D512755856D00BFACDB /* AHITrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHITrackerTests.swift; sourceTree = "<group>"; };
+		97054D572755856E00BFACDB /* AHITrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHITrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97054D5B2755856E00BFACDB /* AHITrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHITrackerUITests.swift; sourceTree = "<group>"; };
+		97054D5D2755856E00BFACDB /* AHITrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHITrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97751115275D70C2007216D1 /* SensorsConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsConnectionView.swift; sourceTree = "<group>"; };
+		97751117275D77E2007216D1 /* SensorsDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsDataView.swift; sourceTree = "<group>"; };
+		97751119275E0A1C007216D1 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		9775111B275E1325007216D1 /* RTSensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTSensors.swift; sourceTree = "<group>"; };
+		9775111D275E1847007216D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9775112A276200BB007216D1 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97054D3A2755856900BFACDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D4A2755856D00BFACDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D542755856E00BFACDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97054D342755856900BFACDB = {
+			isa = PBXGroup;
+			children = (
+				97054D3F2755856900BFACDB /* AHITracker */,
+				97054D502755856D00BFACDB /* AHITrackerTests */,
+				97054D5A2755856E00BFACDB /* AHITrackerUITests */,
+				97054D3E2755856900BFACDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97054D3E2755856900BFACDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97054D3D2755856900BFACDB /* AHITracker.app */,
+				97054D4D2755856D00BFACDB /* AHITrackerTests.xctest */,
+				97054D572755856E00BFACDB /* AHITrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97054D3F2755856900BFACDB /* AHITracker */ = {
+			isa = PBXGroup;
+			children = (
+				9775111D275E1847007216D1 /* Info.plist */,
+				97054D402755856900BFACDB /* AHITrackerApp.swift */,
+				97751114275D709A007216D1 /* Views */,
+				97054D442755856D00BFACDB /* Assets.xcassets */,
+				97054D462755856D00BFACDB /* Preview Content */,
+				97751119275E0A1C007216D1 /* BLEController.swift */,
+				9775111B275E1325007216D1 /* RTSensors.swift */,
+			);
+			path = AHITracker;
+			sourceTree = "<group>";
+		};
+		97054D462755856D00BFACDB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97054D472755856D00BFACDB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97054D502755856D00BFACDB /* AHITrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				97054D512755856D00BFACDB /* AHITrackerTests.swift */,
+			);
+			path = AHITrackerTests;
+			sourceTree = "<group>";
+		};
+		97054D5A2755856E00BFACDB /* AHITrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97054D5B2755856E00BFACDB /* AHITrackerUITests.swift */,
+				97054D5D2755856E00BFACDB /* AHITrackerUITestsLaunchTests.swift */,
+			);
+			path = AHITrackerUITests;
+			sourceTree = "<group>";
+		};
+		97751114275D709A007216D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				97054D422755856900BFACDB /* ContentView.swift */,
+				97751115275D70C2007216D1 /* SensorsConnectionView.swift */,
+				97751117275D77E2007216D1 /* SensorsDataView.swift */,
+				9775112A276200BB007216D1 /* CustomViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97054D3C2755856900BFACDB /* AHITracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97054D612755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITracker" */;
+			buildPhases = (
+				97054D392755856900BFACDB /* Sources */,
+				97054D3A2755856900BFACDB /* Frameworks */,
+				97054D3B2755856900BFACDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHITracker;
+			productName = RunTracker;
+			productReference = 97054D3D2755856900BFACDB /* AHITracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97054D4C2755856D00BFACDB /* AHITrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97054D642755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITrackerTests" */;
+			buildPhases = (
+				97054D492755856D00BFACDB /* Sources */,
+				97054D4A2755856D00BFACDB /* Frameworks */,
+				97054D4B2755856D00BFACDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97054D4F2755856D00BFACDB /* PBXTargetDependency */,
+			);
+			name = AHITrackerTests;
+			productName = RunTrackerTests;
+			productReference = 97054D4D2755856D00BFACDB /* AHITrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97054D562755856E00BFACDB /* AHITrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97054D672755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITrackerUITests" */;
+			buildPhases = (
+				97054D532755856E00BFACDB /* Sources */,
+				97054D542755856E00BFACDB /* Frameworks */,
+				97054D552755856E00BFACDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97054D592755856E00BFACDB /* PBXTargetDependency */,
+			);
+			name = AHITrackerUITests;
+			productName = RunTrackerUITests;
+			productReference = 97054D572755856E00BFACDB /* AHITrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97054D352755856900BFACDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					97054D3C2755856900BFACDB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					97054D4C2755856D00BFACDB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 97054D3C2755856900BFACDB;
+					};
+					97054D562755856E00BFACDB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 97054D3C2755856900BFACDB;
+					};
+				};
+			};
+			buildConfigurationList = 97054D382755856900BFACDB /* Build configuration list for PBXProject "AHITracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97054D342755856900BFACDB;
+			productRefGroup = 97054D3E2755856900BFACDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97054D3C2755856900BFACDB /* AHITracker */,
+				97054D4C2755856D00BFACDB /* AHITrackerTests */,
+				97054D562755856E00BFACDB /* AHITrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97054D3B2755856900BFACDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97054D482755856D00BFACDB /* Preview Assets.xcassets in Resources */,
+				97054D452755856D00BFACDB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D4B2755856D00BFACDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D552755856E00BFACDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97054D392755856900BFACDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9775112B276200BB007216D1 /* CustomViews.swift in Sources */,
+				97751116275D70C2007216D1 /* SensorsConnectionView.swift in Sources */,
+				97054D432755856900BFACDB /* ContentView.swift in Sources */,
+				9775111A275E0A1C007216D1 /* BLEController.swift in Sources */,
+				9775111C275E1325007216D1 /* RTSensors.swift in Sources */,
+				97751118275D77E2007216D1 /* SensorsDataView.swift in Sources */,
+				97054D412755856900BFACDB /* AHITrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D492755856D00BFACDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97054D522755856D00BFACDB /* AHITrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97054D532755856E00BFACDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97054D5C2755856E00BFACDB /* AHITrackerUITests.swift in Sources */,
+				97054D5E2755856E00BFACDB /* AHITrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97054D4F2755856D00BFACDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97054D3C2755856900BFACDB /* AHITracker */;
+			targetProxy = 97054D4E2755856D00BFACDB /* PBXContainerItemProxy */;
+		};
+		97054D592755856E00BFACDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97054D3C2755856900BFACDB /* AHITracker */;
+			targetProxy = 97054D582755856E00BFACDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97054D5F2755856E00BFACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97054D602755856E00BFACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97054D622755856E00BFACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AHITracker/Preview Content\"";
+				DEVELOPMENT_TEAM = THKF822TTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AHITracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AHITracker;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to get data from sensors";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.ahitracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97054D632755856E00BFACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AHITracker/Preview Content\"";
+				DEVELOPMENT_TEAM = THKF822TTP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AHITracker/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AHITracker;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to get data from sensors";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dianyxinnovations.ahitracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97054D652755856E00BFACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JY26JM8HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.anas.RunTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHITracker.app/AHITracker";
+			};
+			name = Debug;
+		};
+		97054D662755856E00BFACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JY26JM8HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.anas.RunTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHITracker.app/AHITracker";
+			};
+			name = Release;
+		};
+		97054D682755856E00BFACDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JY26JM8HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.anas.RunTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RunTracker;
+			};
+			name = Debug;
+		};
+		97054D692755856E00BFACDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JY26JM8HL;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = im.anas.RunTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RunTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97054D382755856900BFACDB /* Build configuration list for PBXProject "AHITracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97054D5F2755856E00BFACDB /* Debug */,
+				97054D602755856E00BFACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97054D612755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97054D622755856E00BFACDB /* Debug */,
+				97054D632755856E00BFACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97054D642755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97054D652755856E00BFACDB /* Debug */,
+				97054D662755856E00BFACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97054D672755856E00BFACDB /* Build configuration list for PBXNativeTarget "AHITrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97054D682755856E00BFACDB /* Debug */,
+				97054D692755856E00BFACDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97054D352755856900BFACDB /* Project object */;
+}
